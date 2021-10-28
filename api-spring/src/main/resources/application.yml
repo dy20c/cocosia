@@ -1,9 +1,10 @@
+#common yml for official
 server:
-  port: 3434
+  port: 2020
 
 spring:
   datasource:
-    url: jdbc:postgresql://db-pfpd-yoda-postgresql.postgres.database.azure.com:5432/postgres
+    url: jdbc:mariadb://db-cocosia.mariadb.database.azure.com:3306/cocosia
     username: secret
     password: secret
 

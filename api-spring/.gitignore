@@ -1,5 +1,5 @@
-###local
-application-local.yml
+###application-com
+application-com.yml
 
 HELP.md
 .gradle

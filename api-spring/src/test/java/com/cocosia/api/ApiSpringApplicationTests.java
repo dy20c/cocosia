@@ -1,4 +1,4 @@
-package com.cocosia.api.apispring;
+package com.cocosia.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
