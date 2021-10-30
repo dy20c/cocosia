@@ -1,0 +1,3 @@
+#only local
+localhost:
+  url: http://dns.com

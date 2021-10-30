@@ -1,0 +1,3 @@
+#only dev
+localhost:
+  url: http://10.232.10.1:2020
