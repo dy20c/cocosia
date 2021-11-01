@@ -1,0 +1,25 @@
+#common yml for official
+server:
+  port: 2020
+
+spring:
+  datasource:
+    url: jdbc:mariadb://db-cocosia.mariadb.database.azure.com:3306/cocosia
+    username: secret
+    password: secret
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    database-platform: org.hibernate.dialect.MariaDB103Dialect
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-methods: GET, POST
+  endpoint:
+    health:
+      show-details: always

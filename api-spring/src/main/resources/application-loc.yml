@@ -1,0 +1,3 @@
+#only local
+localhost:
+  uri: http://localhost:2020
