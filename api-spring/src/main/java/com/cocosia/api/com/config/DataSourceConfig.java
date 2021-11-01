@@ -29,13 +29,13 @@ public class DataSourceConfig {
 //public class PersistenceJPAConfig
 
     @Value("${spring.datasource.url}")
-    private static String url;
+    private String url;
 
     @Value("${spring.datasource.username}")
-    private static String userName;
+    private String userName;
 
     @Value("${spring.datasource.password}")
-    private static String pw;
+    private String pw;
 
 
     @Bean
